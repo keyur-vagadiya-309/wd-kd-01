@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>marquee</title>
+	<style>
+		body{
+			background-color: black;
+		}
+		img{
+		width: 400px;
+		height: 200px;
+		margin-left:35%;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	img:hover{
+		box-shadow: 0px 0px 30px #00ff00;
+		transition-duration: 2s;
+	}
+	marquee{
+		color: blue;
+		font-size: 75px;
+		text-shadow: 0px 0px 20px #ff00ff;
+	}
+	#aaa{
+		color: red;
+		font-size: 75px;
+		text-shadow: 0px 0px 20px #ff00ff;
+		margin-left:40%;
+		
+	}
+	#bbb{
+		color: green;
+		font-size: 75px;
+		text-shadow: 0px 0px 20px #ff00ff;
+ 	}
+	#ccc{
+		color:#ff00ff;
+		font-size: 75px;
+		text-shadow: 0px 0px 20px #ff00ff;
+		margin-left:40%;
+	}
+	</style>
+</head>
+<body>
+	<marquee direction="up" id="aaa">Hello World!!!</marquee>
+
+	<marquee direction="left">Hello World!!!</marquee>
+		
+	<img src="kd.jpg">
+	
+	<marquee direction="right" id="bbb">Hello World!!!</marquee>
+	
+	<marquee direction="down" id="ccc">Hello World!!!</marquee>
+</body>
+</html>

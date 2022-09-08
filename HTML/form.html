@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <link rel="stylesheet" href="assets/css/form.css">
+        <style>
+            h2{
+    text-align: center;
+    color: blue;
+    
+
+}
+#finput{
+    border: none;
+}
+
+div{
+    border: 1px solid black;
+    width: 40%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    background-color: pink;
+    border-style: hidden;
+    border-radius: 5px;;
+}
+
+.botton{
+        border: none;
+        background-color: lightblue;
+        cursor: pointer;
+        height: 20px;
+}
+
+#communicate{
+    font-size: 25px;
+}
+#form-align{
+    border: none;
+}
+        </style>
+    </head>
+    <body>
+        <div>
+        <h2>-: CONTACT US :-</h2>
+        
+            <form action="">
+                <label for="cars">Full Name :</label>
+                <input type="text" required name="fname" id="form-align"><br><br>
+
+                <label for="cars">E-Mail :</label>
+                <input type="email" required name="email" id="form-align"><br><br>
+
+                <label for="cars">Password :</label>
+                <input type="password" required name="password" id="form-align"><br><br>
+
+
+                <label for="country">Select Your Country: </label>
+                <select required class="finput" name="country">
+                    <option value="">--Choose Country--</option>
+                    <option value="India">India</option>
+                    <option value="America">America</option>
+                    <option value="Russia">Russia</option>
+                    <option value="UK">UK</option>
+                    <option value="Canada">Canada</option>
+                    <option value="China">China</option>
+                </select><br><br>
+
+                <label for="">Can We Communicate:<br><br>
+                Yes<input type="radio" name="permission" id="yes">
+                No<input type="radio" name="permission" id="no">
+                </label><br><br>
+
+                <label for="Communicate" id="communicate">Choose The Way To Communicate :</label><br><br>
+                Text Message<input type="checkbox" name="text" id="text">
+                E-Mail<input type="checkbox" name="email" id="email">
+                Call<input type="checkbox" name="call" id="call"><br><br>
+
+                <label for="">Description</label><br><br>
+                <textarea class="input" placeholder="Write Something..." name="Description" id="desc" cols="30" rows="10"></textarea><br><br>
+
+                <input class="button" type="submit" value="Submit">
+                <input class="button" type="reset" value="Reset"><br><br>
+            </form>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>button</title>
+	<style>
+		#box{
+			width:300px;
+			background-color: yellow;
+			transition-duration: 2s;
+		}
+		#box:fullscreen p{
+			background-color: cyan;
+			font-size: 40px;
+			color: red;
+			transition-duration: 2s;
+			transition-delay: 1s;
+		}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati enim dolores eaque modi delectus quis officia aspernatur atque laudantium, doloribus eveniet praesentium ea, quisquam optio alias debitis natus architecto minima.
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, blanditiis tenetur! Nulla iusto minus laborum, deserunt, sit adipisci quasi obcaecati nobis cum officia sed praesentium quae tenetur. Dignissimos, in. Velit?
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos et fugit, tempore consequatur totam voluptatem corrupti vitae. Velit, quidem aliquid fugiat suscipit excepturi deleniti mollitia ea cumque repellendus quae consequuntur.
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente itaque aliquam modi, in nihil doloribus dolorem vitae fuga eveniet, autem labore beatae quae ipsum nisi est ipsa omnis cum rem.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio neque sint fugiat ipsum tempore veniam, adipisci dolores iusto atque quos odio totam magnam. Molestiae, tenetur! Nulla veritatis dolores tempore eligendi.
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aliquid, rem sed nesciunt laborum temporibus iste totam quis omnis quia quaerat veniam, delectus eius voluptatibus sint harum officiis? Eos, veritatis!
+		</p>
+	</div>
+	<button onclick="document.getElementById('box').requestFullscreen();">--click here-- </button>
+</body>
+
+</html>
