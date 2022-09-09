@@ -1,0 +1,17 @@
+1. what are the new tag added in HTML5 ?
+==> <Artical>, <aside>, <bdi>, <nav>,<svg>,<audio>,<Vedio> all tags are 
+    new tags in HTML5.
+
+2. How to embed audio and vedio on HTML5 ?
+==> Using <audio> and <vedio> tag we can add audio and vedio on HTML5.
+
+3. Semantic element in HTML5 ?
+==> <form>, <table>, <artical> that are semantic tag in HTML5.
+
+4. Canvas and Svg tags.
+==> SVG: Scalable Vector Graphics 
+==> SVG is xml based image use to define two-dimansional graphics.
+
+==> canvas tag are use to draw graphics on html5.
+==> we can use canvas tag via javascript.
+

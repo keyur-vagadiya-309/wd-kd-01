@@ -1,0 +1,82 @@
+1. Are the HTML tags and elements the same things ?
+==> NO,because tags are use to hold element & html element used to hold content between tags.
+
+2. What are tags and attributes in HTML ?
+==> Tags are used to hold html element
+==> Attribute are use to define characteristic of HTML element.
+
+3. What are VOID element in HTML ?
+==> void element are starting tag but they don't have ending tag 
+    so... this type to element are called as html void element.
+
+4. What are different types of list in HTML ? 
+==> Two types of list 
+    1> Ordered list 2> Un-Ordered list
+
+5. What is the 'class' attribute in HTML ? 
+==> class attribute are use to point a class in css.
+
+6. What is the different between the 'id' attribute and 'class' attribute of HTML element ?
+==> An id attribute can apply to only one element 
+==> A class attribute can apply to one or motre element.
+
+7. What are the various formatting tags in HTML ?
+==> <b>, <i>, <em>, <del>,<ins>,<small> this type of tags are the various formatting tags.
+
+8. How is cell padding different from Cell Spacing ?
+==> cell padding assosiated with single cell.
+==> cell spacing assosiated with multiple cell.
+
+9. How can we club tow or more rows or column into a single row or column in HTML table ?
+==> we club tow or more rows or column into a single row or column 
+    in HTML table with using sowspan and colspan. 
+
+10. What is the different between block-level element and inline element ?
+==> Block level element take full width & inline element take width as much as it need.
+==> Block element start with new line & inline element don't start with new line.
+
+11. How to create Hyperlink in HTML ?
+==> An anchor tag <a> is use to create hyperlink.
+
+12. What is the use of an iframe tag ?
+==> An iframe tag is use to embed another document in current document.
+
+13. What is the use on span tag ? Explain with example.
+==> The span tag is used as container of an inline element.
+==> To change color,font-size,background of perticular part of text.
+
+example:-
+
+<p>This is <span> span </span> tag. use to style perticular text.</p> 
+
+
+14. How to insert a image to background image of HTML web page ?
+==> To insert background image use style and css background-image property.
+
+15. How are active link different from normal link ?
+
+
+16. What are the different tags to separate section of text ?
+==> There are three tags are use to separate section of text...
+  1:- <br> 2:- <p> 3:- <blockquote>
+
+17. What is SVG ?
+==> SVG stands for scalable vector graphics.
+==> SVG defines 2d(two dimensional) graphics in html.
+
+18. What is difference between HTML and XHTML ?
+   1: HTML :-
+   ==> HTML stands for Hyper Text Markup Language.
+   ==> It is used to create website or web applications.
+   ==> HTML is not case sensitive.
+   
+   2: XHTML :-
+   ==> XHTML stands for Extensible Hyper Text Markup Language. 
+   ==> XHTML is strickter than HTML. 
+   ==> XHTML is case sensitive.
+
+19. What are logical and physical tags in HTML ?
+==> Logical tags are use to display text to the logical styles.
+==> <dfn>,<kbd>,<pre> are logical tags
+
+==> physical tag are use to indicate specific character using html tags.
