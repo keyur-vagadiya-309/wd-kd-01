@@ -1,0 +1,63 @@
+1. What is JavaScript ?
+==> JavaScript is an Object-Oriented-Programming language.
+==> JavaScript is used to create effects in webpage.
+
+2. What is use of isNaN function ?
+==> isNaN function is used to check given value is illegal or not.
+==> Return true when value is NaN otherwise returns false.
+
+3. What is nagative Infinity ?
+==> Nagative infinity is same as nagative value of globle oject infinity property.
+
+4. Which company developed javascript ?
+==> JavaScript was developed by netscape company.
+
+5. What are undeclared and undifined variables ?
+==> undeclared variable means variable dose not exist in page.
+==> undifined variable means variable is declared but it has not value.
+
+6. Write the code for adding new element Dynamically.
+==> document.createElement("<tagName>")
+
+7. What is the difference between ViewState and SessionState ?
+==> ViewState is used to manage state at the client's end,
+    making state management easy for end-user.
+==> SessionState  is uded to manage state at the server's end.
+
+8. What is === operator ?
+==> check two operator are equal or not.
+==> return true if operators are equal otherwise return false.
+
+9. How can the style/class of an element be changed ?
+==> The style/class of an element can be chanded by changing its class attribute.
+
+10. How to read and write a file using Javascript ?
+==> fwrite() function is used for write a file. and fread() function is used for read file.
+
+11. What are all the looping structure on JavaScript ?
+==> Javascript supports many type of loop.
+==> (i) For loop
+    (ii) While loop
+    (iii) Do-while loop
+
+12. How can you convert the string of any based to an Integer in JavaScript ?
+==> parseInt() function is used to convert the string of any based to an Integer in JavaScript.
+
+13. What is the function of the delete operator ?
+==> delete operator remove property form object.
+
+14. What are all the types of pop up boxex available in javascript ?
+==> There are three types of popup box available in JavaScript.
+==> (i) Alert box 
+    (ii) Confirm box
+    (iii) Promt box
+
+15. What is the use of Void (0)?
+==> void is return undifined value.
+
+16. How can a page be forced to load another pag in JavaScript ?
+==> Using window location property we can a page be forced to load another pag in JavaScript.
+
+17. What are disadvantages of using innerHTML in JAvaScript ?
+==> (i) Breake the document.
+    (ii) not possible to append innerHTML.
