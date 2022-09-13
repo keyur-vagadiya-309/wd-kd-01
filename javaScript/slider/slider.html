@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image-Slider</title>
+	<style type="text/css">
+		.i1{
+			height: 300px;
+			width: 500px;
+		}
+	</style>
+</head>
+<body>
+	<img src="img1.jpg" class="i1">
+	<img src="img2.jpg" class="i1">
+	<img src="img3.jpg" class="i1">
+	<img src="img4.jpg" class="i1">
+	<img src="img5.jpg" class="i1">
+</body>
+<script type="text/javascript">
+	counter=0;
+	function slider(){
+		var ar=document.getElementsByClassName('i1')
+		for (var i = 0; i < ar.length; i++) {
+			ar[i].style.display="none";
+		}
+		if(counter==ar.length){
+			counter=0;
+		}
+		ar[counter].style.display="block";
+		counter++;
+		setTimeout(slider,1000)
+	}
+	slider();
+</script>
+</html>
